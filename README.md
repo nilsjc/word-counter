@@ -1,11 +1,9 @@
-# ordräknare
+# wordcounter
 
-Modul i Erlang som returnerar en lista på alla ord i en textfil, och hur stort antal.
+counts words from a text file
 
-procedur i Erlang shell:
+Run in Erlang shell:
 
 1>c(wordcount).
 
-2>wordcount:print_word_counts("minTextfil.txt").
-
-Mycket nöje!
+2>wordcount:print_word_counts("MyTextFile.txt").
